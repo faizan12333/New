@@ -1,0 +1,23 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+html{
+
+  scroll-behavior: smooth !important;
+}
+
+  body{
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+    
+  }
+
+  .remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.remove-arrow {
+    -moz-appearance: textfield;
+}
